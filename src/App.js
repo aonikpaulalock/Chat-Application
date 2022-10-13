@@ -1,11 +1,12 @@
+import { ChatEngine} from 'react-chat-engine'
 import './App.css';
-import { ChatEngine } from 'react-chat-engine'
 function App() {
+  const projectID = '041235c5-6df4-404f-96c8-c1b697dc8664';
   return (
     <ChatEngine
-    height="100vh"
-      projectID= "84573d68-3bfa-4140-963a-f2e12f71239d"
-      userName="Aonik Paul"
+      height="100vh"
+      projectID={projectID}
+      userName="Sourob Paul Anokul"
       userSecret="12345678"
     />
   );
